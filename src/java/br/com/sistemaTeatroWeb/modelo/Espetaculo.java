@@ -1,18 +1,17 @@
 
 package br.com.sistemaTeatroWeb.modelo;
 
-import java.io.*;
-import java.text.SimpleDateFormat;
+
 import java.util.Date;
 import java.util.LinkedList;
-import java.util.Scanner;
+import org.joda.time.DateTime;
 
 public class Espetaculo{
 
     private int idEspetaculo;
     private String nome;
-    private Date dataInicio;
-    private Date dataFim;
+    private DateTime  dataInicio;
+    private DateTime dataFim;
     private String descricao;
     private int faixaEtaria;
     private int duracaoMinutos;
@@ -31,20 +30,20 @@ public class Espetaculo{
         this.fk_Artista.addAll(artistas);
     }
 
-    public Long getDataInicio() {
-        return dataInicio.getTime();
+    public DateTime getDataInicio() {
+        return dataInicio;
     }
 
-    public void setDataInicio(Long dataInicio) {
-        this.dataInicio.setTime(dataInicio);
+    public void setDataInicio(DateTime dataInicio) {
+        this.dataInicio=dataInicio;
     }
 
-    public Long getDataFim() {
-        return dataFim.getTime();
+    public DateTime getDataFim() {
+        return dataFim;
     }
 
-    public void setDataFim(Long dataFim) {
-        this.dataFim.setTime(dataFim);
+    public void setDataFim(DateTime dataFim) {
+        this.dataFim = dataFim;
     }
 
     public int getIdEspetaculo() {
