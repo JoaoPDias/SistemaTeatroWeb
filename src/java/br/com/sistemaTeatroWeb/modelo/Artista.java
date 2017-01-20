@@ -1,20 +1,18 @@
 package br.com.sistemaTeatroWeb.modelo;
 
-import java.io.*;
-import java.util.Date;
-import java.util.LinkedList;
+import org.joda.time.DateTime;
+
+
 
 public class Artista{
 
     private int idArtista;
     private String nome;
-    private Date dataNasc;
+    private DateTime dataNasc;
     private String CPF;
     private String RG;
     private String celular;
     private String email;
-    private static final File arq = new File("Dados", "Artista.txt");
-    public static final String UTF8_BOM = "\uFEFF";
 
     public int getIDArtista() {
         return idArtista;
@@ -24,8 +22,8 @@ public class Artista{
         return nome;
     }
 
-    public Long getDataNasc() {
-        return this.dataNasc.getTime();
+    public DateTime getDataNasc() {
+        return this.dataNasc;
     }
 
     public String getCPF() {
@@ -44,9 +42,6 @@ public class Artista{
         return email;
     }
 
-    public File getArq() {
-        return arq;
-    }
 
     public void setIDArtista(int idArtista) {
         this.idArtista = idArtista;
@@ -56,8 +51,8 @@ public class Artista{
         this.nome = nome;
     }
 
-    public void setDataNasc(Long dataNasc) {
-        this.dataNasc = new Date(dataNasc);
+    public void setDataNasc(DateTime dataNasc) {
+        this.dataNasc = dataNasc;
     }
 
     public void setCPF(String CPF) {
