@@ -2,7 +2,6 @@
 package br.com.sistemaTeatroWeb.modelo;
 
 
-import java.util.Date;
 import java.util.LinkedList;
 import org.joda.time.DateTime;
 

@@ -3,13 +3,12 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/Users/jpdia/Documents/NetBeansProjects/SistemaTeatroWeb/src/java/br/com/sistemaTeatroWeb/modelo/Apresentacao.java</file>
-            <file>file:/C:/Users/jpdia/Documents/NetBeansProjects/SistemaTeatroWeb/web/index.html</file>
-            <file>file:/C:/Users/jpdia/Documents/NetBeansProjects/SistemaTeatroWeb/src/java/br/com/sistemaTeatroWeb/jdbc/ConnectionFactory.java</file>
-            <file>file:/C:/Users/jpdia/Documents/NetBeansProjects/SistemaTeatroWeb/src/java/br/com/sistemaTeatroWeb/dao/SalaDao.java</file>
-            <file>file:/C:/Users/jpdia/Documents/NetBeansProjects/SistemaTeatroWeb/src/java/br/com/sistemaTeatroWeb/modelo/Artista.java</file>
-            <file>file:/C:/Users/jpdia/Documents/NetBeansProjects/SistemaTeatroWeb/src/java/br/com/sistemaTeatroWeb/dao/EspetaculoDao.java</file>
-            <file>file:/C:/Users/jpdia/Documents/NetBeansProjects/SistemaTeatroWeb/src/java/br/com/sistemaTeatroWeb/dao/ApresentacaoDao.java</file>
+            <file>file:/C:/Users/jpdia/Documents/GitHub/SistemaTeatroWeb/src/java/br/com/sistemaTeatroWeb/modelo/Espetaculo.java</file>
+            <file>file:/C:/Users/jpdia/Documents/GitHub/SistemaTeatroWeb/src/java/br/com/sistemaTeatroWeb/dao/TipoEspetaculoDao.java</file>
+            <file>file:/C:/Users/jpdia/Documents/GitHub/SistemaTeatroWeb/src/java/br/com/sistemaTeatroWeb/modelo/Compra.java</file>
+            <file>file:/C:/Users/jpdia/Documents/GitHub/SistemaTeatroWeb/src/java/br/com/sistemaTeatroWeb/modelo/TipoEspetaculo.java</file>
+            <file>file:/C:/Users/jpdia/Documents/GitHub/SistemaTeatroWeb/src/java/br/com/sistemaTeatroWeb/modelo/Artista.java</file>
+            <file>file:/C:/Users/jpdia/Documents/GitHub/SistemaTeatroWeb/test/br/com/sistemaTeatroWeb/teste/TesteIncluiTipoEspetaculo.java</file>
         </group>
     </open-files>
 </project-private>

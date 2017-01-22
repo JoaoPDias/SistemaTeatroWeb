@@ -1,5 +1,6 @@
-package br.com.sistemaTeatroWeb.dao;
+/*package br.com.sistemaTeatroWeb.dao;
 
+import br.com.sistemaTeatroWeb.modelo.Apresentacao;
 import br.com.sistemaTeatroWeb.modelo.Sala;
 import java.io.BufferedWriter;
 import java.io.File;
@@ -13,15 +14,15 @@ import java.util.InputMismatchException;
 import java.util.Scanner;
 import org.joda.time.DateTime;
 
-/**
+*//**
  *
  * @author jpdia
- */
+ *//*
 public class SalaDao {
 
     private Connection connection;
 
-    public Sala getSala(int id) {
+   *//* public Sala getSala(int id) {
         try {
             PreparedStatement stmt = this.connection.prepareStatement("select * from contatos where id = ?");
             stmt.setInt(1, id);
@@ -45,8 +46,8 @@ public class SalaDao {
         }
 
     }
-
-    public void Incluir() {
+*/
+    /*public void Incluir() {
         Scanner leia = new Scanner(System.in);
         System.out.println("Forneça os dados: \n");
         System.out.println("Informe a descrição: ");
@@ -138,9 +139,9 @@ public class SalaDao {
         }
     }
 
-    /**
+    *//**
      *
-     */
+     *//*
     @Override
     public void Alterar() {
         System.out.println("Informe o Código da Sala\n");
@@ -162,9 +163,9 @@ public class SalaDao {
 
     }
 
-    /**
+    *//**
      *
-     */
+     *//*
     @Override
     public void Excluir() {
         System.out.println("Informe o Código da Sala que deseja excluir\n");
@@ -366,4 +367,4 @@ public class SalaDao {
         }
     }
 
-}
+}*/

@@ -1,8 +1,4 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package br.com.sistemaTeatroWeb.dao;
 
 import br.com.sistemaTeatroWeb.jdbc.ConnectionFactory;
@@ -31,9 +27,9 @@ public class ApresentacaoDao {
                 apresentacao.setIdApresentacao(rs.getInt("idApresentacao"));
                 apresentacao.setData(new DateTime(rs.getDate("data")));
                 apresentacao.setHorario(new LocalTime(rs.getTime("horario").getTime()));
-                apresentacao.setFk_Sala(new SalaDao().getSala(rs.getInt("fk_Sala")));
+                //apresentacao.setFk_Sala(new SalaDao().getSala(rs.getInt("fk_Sala")));
                 apresentacao.setValorIngresso(rs.getDouble("valorIngresso"));
-                apresentacao.setFk_Espetaculo(new EspetaculoDao().getEspetaculo(rs.getInt("fk_Espetaculo")));
+                //apresentacao.setFk_Espetaculo(new EspetaculoDao().getEspetaculo(rs.getInt("fk_Espetaculo")));
 
             }
             rs.close();

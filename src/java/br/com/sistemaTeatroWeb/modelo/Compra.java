@@ -3,6 +3,7 @@ package br.com.sistemaTeatroWeb.modelo;
 import java.io.*;
 import java.util.Date;
 import java.util.LinkedList;
+import org.joda.time.DateTime;
 
 /**
  *
@@ -19,7 +20,7 @@ public class Compra {
     private String bandeiraCartao;
     private String datavalidade;
     private String numBoleto;
-    private Date dataVencimento;
+    private DateTime dataVencimento;
     private String formaPagamento;
     
     public String getFormaPagamento() {
@@ -30,12 +31,12 @@ public class Compra {
         this.formaPagamento = formaPagamento;
     }
 
-    public long getDataVencimento() {
-        return dataVencimento.getTime();
+    public DateTime getDataVencimento() {
+        return dataVencimento;
     }
 
-    public void setDataVencimento(long dataVencimento) {
-        this.dataVencimento = new Date(dataVencimento);
+    public void setDataVencimento(DateTime dataVencimento) {
+        this.dataVencimento = dataVencimento;
     }
 
     public String getNumeroCartao() {
